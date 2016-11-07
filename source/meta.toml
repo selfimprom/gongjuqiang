@@ -6,16 +6,16 @@ title = "juejohn.info"
 subtitle = "剑未佩好、出门已是江湖"
 
 # print in html <meta>
-keyword = "pugo,golang,static,site,generator"
+keyword = "龚举强,gongjuqiang,juejohn,golang,blog"
 
 # print in html <meta>
-desc = "PuGo is a Simple Static Site Generator"
+desc = "剑未佩好、出门已是江湖"
 
 # build links for feed, sitemap
-domain = "localhost"
+domain = "juejohn.info"
 
 # root path for site# if empty, build as http://{domain}/
-root = "http://localhost:9899/"
+root = "http://juejohn.info/"
 
 # cover page for homepage
 cover = "@media/cover.jpg"
@@ -46,16 +46,16 @@ i18n = "about"
 hover = "about"
 
 [[nav]]
-link = "http://pugo.io"
-title = "Source"
-i18n = "source"
+link = "/friends"
+title = "Friends"
+i18n = "friends"
 # browser open in new tab
-blank = true
+blank = false
 
 [[author]]
-name = "author_name"
-email = ""
-url = "http://pugo.io"
+name = "gongjuqiang"
+email = "juejohn.info"
+url = "http://juejohn.info"
 avatar = "@media/author.png"
 bio = "the robot of pugo, who generates all default contents."
 

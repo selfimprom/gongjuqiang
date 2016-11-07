@@ -49,8 +49,8 @@ hover = "about"
 link = "/friends"
 title = "Friends"
 i18n = "friends"
-# browser open in new tab
-blank = false
+hover = "friends"
+#blank = false
 
 [[author]]
 name = "gongjuqiang"

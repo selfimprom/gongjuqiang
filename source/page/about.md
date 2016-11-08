@@ -1,5 +1,5 @@
 ```toml
-title = "About PuGo"
+title = "About Me"
 # slug = "about"
 desc = "some words about pugo"
 date = "2016-03-24 12:24:00"

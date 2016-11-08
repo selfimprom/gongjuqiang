@@ -3,7 +3,7 @@
 home = "Home"
 archive = "Archive"
 about = "About"
-source = "Source"
+friends = "Friends"
 
 # about post
 [post]

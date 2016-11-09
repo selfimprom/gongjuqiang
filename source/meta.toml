@@ -34,19 +34,19 @@ hover = "index"
 blank = false
 
 [[nav]]
-link = "/archive"
+link = "/archive.html"
 title = "Archive"
 i18n = "archive"
 hover = "archive"
 
 [[nav]]
-link = "/about"
+link = "/about.html"
 title = "About"
 i18n = "about"
 hover = "about"
 
 [[nav]]
-link = "/friends"
+link = "/friends.html"
 title = "Friends"
 i18n = "friends"
 hover = "friends"

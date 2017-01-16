@@ -35,8 +35,8 @@ ssserver -c /etc/sss.json -d start
 停止：  
 ssserver -c /etc/sss.json -d stop  
 ```
-*客户端下载：  
+* 客户端下载：  
 [Site](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients)  
 
-*客户端的使用：  
+* 客户端的使用：  
 在客户端上面输入你的服务器ip，上面sss.json配置文件中的server_port、和password就行了。

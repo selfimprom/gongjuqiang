@@ -17,6 +17,7 @@ sudo pip install shadowsocks
 ```  
 * 对ShadowSocks进行配置：    
 在/etc/目录下建立一个sss.json 文件    
+
 ```  
 {
     "server":"0.0.0.0",
@@ -31,6 +32,7 @@ sudo pip install shadowsocks
 ```  
 server_port"后跟一个 大于1024, 小于65535 的数字  
 * 基础命令  
+
 ```    
 运行：  
 ssserver -c /etc/sss.json -d start     

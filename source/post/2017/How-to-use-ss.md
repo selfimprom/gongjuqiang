@@ -6,7 +6,7 @@ date = "2017-01-16 15:00:30"
 update_date = "2017-01-16 15:00:30"
 author = "juejohn"
 thumb = ""
-tags = ["tag"]
+tags = ["笔记"]
 ```  
 
 * 安装ShadowSocks:  

@@ -9,7 +9,7 @@ thumb = ""
 tags = ["tag"]
 ```
 * 安装ShadowSocks:
-```  
+```go
 sudo apt-get install python-pip
 sudo pip install shadowsocks  
 ```  
@@ -29,14 +29,14 @@ sudo pip install shadowsocks
 ```  
 server_port"后跟一个 大于1024, 小于65535 的数字  
 * 基础命令  
-```  
+```
 运行：
 ssserver -c /etc/sss.json -d start  
 停止：  
 ssserver -c /etc/sss.json -d stop  
 ```
-*客户端下载：  
+* 客户端下载：  
 [Site](https://github.com/shadowsocks/shadowsocks/wiki/Ports-and-Clients)  
 
-*客户端的使用：  
+* 客户端的使用：  
 在客户端上面输入你的服务器ip，上面sss.json配置文件中的server_port、和password就行了。

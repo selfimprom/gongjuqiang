@@ -1,6 +1,6 @@
 [meta]
 # site title, show in <title>
-title = "juejohn.info"
+title = "juejohn"
 
 # subtitle, words after title, in description
 subtitle = "剑未佩好、出门已是江湖"
@@ -12,10 +12,10 @@ keyword = "龚举强,gongjuqiang,juejohn,golang,blog"
 desc = "剑未佩好、出门已是江湖"
 
 # build links for feed, sitemap
-domain = "juejohn.info"
+domain = "gongjuqiang.com"
 
 # root path for site# if empty, build as http://{domain}/
-root = "http://juejohn.info/"
+root = "http://gongjuqiang.com/"
 
 # cover page for homepage
 cover = "@media/cover.jpg"
@@ -54,8 +54,8 @@ hover = "friends"
 
 [[author]]
 name = "gongjuqiang"
-email = "juejohn.info"
-url = "http://juejohn.info"
+email = "386127978@qq.com"
+url = "http://gongjuqiang.com"
 avatar = "@media/author.png"
 bio = "the robot of pugo, who generates all default contents."
 

@@ -60,7 +60,8 @@ EXPOSE  80 --暴露的端口
 * 一系列的标准操作  
 * 一个执行环境  
 容器的唯一表示有：短uuid、长uuid、name   
-常用命令  
+常用命令
+
 ```
 1、docker run -d --name=server-db -p 3306:3306 -v /server/mysql-data:/mysql-data centos6.8-mysql /usr/bin/mysql_safe –d 
 args：

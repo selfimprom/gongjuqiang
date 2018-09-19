@@ -59,8 +59,8 @@ EXPOSE  80 --暴露的端口
 * 一个镜像文件  
 * 一系列的标准操作  
 * 一个执行环境  
-容器的唯一表示有：短uuid、长uuid、name   
-常用命令
+容器的唯一表示有：短uuid、长uuid、name  
+***常用命令***
 
 ```
 1、docker run -d --name=server-db -p 3306:3306 -v /server/mysql-data:/mysql-data centos6.8-mysql /usr/bin/mysql_safe –d 
@@ -116,19 +116,20 @@ eg： docker logs －ft －tail 0 test
 *** 
 ###网络、存储卷###
 ***docker通过创建网络来实现互通（也可以用链接），通过创建卷来实现数据共享***
-创建网络
+
+创建网络  
 docker network create app   
 
-查看才创建的网络 
+查看才创建的网络  
 docker network inspect app   
 
-创建容器时候使用刚才创建的网络app 
+创建容器时候使用刚才创建的网络app  
 docker run －d - -net =app - - name db  image_name 
 
-将已有的容器加入已经创建的网络 
+将已有的容器加入已经创建的网络  
 docker network connect app container_name   
 
-断开网络 
+断开网络  
 docker network disconnect app container_name 
 
 ###简单的容器编配 Docker Compose###
